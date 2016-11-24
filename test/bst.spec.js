@@ -83,8 +83,8 @@ describe(`Binary Search Tree. Student: ${student}`, () => {
             bst = new BinarySearchTree();
         });
 
-        it('returns undefined if tree is empty', () => {
-            expect(bst.root()).to.be.an.undefined;
+        it('returns undefined || null if tree is empty', () => {
+            expect(bst.root()).to.not.exist;
         })
 
         it('returns root value', () => {
