@@ -1,10 +1,21 @@
+function Node(key, value) {
+    this.key = key;
+    this.value = value;
+
+    this.left = null;
+    this.right = null;
+}
+
 function BinarySearchTree() {
+    this._root = new Node();
 }
 
 
 module.exports = {
   BinarySearchTree,
-  //PROVIDE BST STRUCTURE FOR TESTS
+
+  //WARNING!!!
+  //PROVIDE BST STRUCTURE FOR TESTS {STRING}
   root: '_root',
   left: 'left',
   right: 'right',
