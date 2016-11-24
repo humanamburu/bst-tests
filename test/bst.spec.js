@@ -32,7 +32,7 @@ describe(`Binary Search Tree. Student: ${student}`, () => {
             elements = [2, 1, 3];
 
             elements.forEach((element) => {
-                bst.insert(element, 'elem' + element.toString());
+                bst.insert(element, 'elem' + element);
             });
 
             _root = bst[root];
@@ -54,7 +54,7 @@ describe(`Binary Search Tree. Student: ${student}`, () => {
             elements = [7, 6, 34, 4, 65, 20];
 
             elements.forEach((element) => {
-                bst.insert(element, 'elem' + element.toString());
+                bst.insert(element, 'elem' + element);
             });
             _root = bst[root];
 
@@ -105,7 +105,7 @@ describe(`Binary Search Tree. Student: ${student}`, () => {
             elements = [7, 6, 34, 4, 65, 20];
 
             elements.forEach((element) => {
-                bst.insert(element, 'elem' + element.toString());
+                bst.insert(element, 'elem' + element);
             });
         });
 
@@ -173,7 +173,7 @@ describe(`Binary Search Tree. Student: ${student}`, () => {
             elements = [7, 6, 34, 4, 65, 20];
 
             elements.forEach((element) => {
-                bst.insert(element, 'elem' + element.toString());
+                bst.insert(element, 'elem' + element);
             })
         });
 
@@ -186,7 +186,7 @@ describe(`Binary Search Tree. Student: ${student}`, () => {
         })
 
         it('returns undefined || null if node does not exist', () => {
-            expect(bst.search(45)).to.not.exist;
+            expect(bst.search(77)).to.not.exist;
         })
 
     });
@@ -200,7 +200,7 @@ describe(`Binary Search Tree. Student: ${student}`, () => {
             elements = [7, 6, 34, 4, 65, 20];
 
             elements.forEach((element) => {
-                bst.insert(element, 'elem' + element.toString());
+                bst.insert(element, 'elem' + element);
             })
         });
 
@@ -211,7 +211,7 @@ describe(`Binary Search Tree. Student: ${student}`, () => {
         })
 
         it('returns false if node does not exist', () => {
-            expect(bst.contains(1115)).to.be.false;
+            expect(bst.contains(77)).to.be.false;
         })
 
         it('returns true if node exist', () => {
@@ -229,7 +229,7 @@ describe(`Binary Search Tree. Student: ${student}`, () => {
             elements = [7, 6, 34, 4, 65, 20];
 
             elements.forEach((element) => {
-                bst.insert(element, 'elem' + element.toString());
+                bst.insert(element, 'elem' + element);
             })
         });
 
@@ -251,7 +251,7 @@ describe(`Binary Search Tree. Student: ${student}`, () => {
             elements = [7, 6, 34, 4, 65, 20];
 
             elements.forEach((element) => {
-                bst.insert(element, 'elem' + element.toString());
+                bst.insert(element, 'elem' + element);
             })
         });
 

@@ -3,8 +3,8 @@
 
 1. Clone this repo
 2. Install modules
-3. Paste BST code to index.js 
-4. Export structure and BST from index.js file
+3. Paste BST code to index.js
+4. Export structure and BST class from index.js file
 
 ```javascript
 module.exports = {
@@ -19,10 +19,13 @@ module.exports = {
 };
 ```
 
+5. npm run test
+6. enjoy
+
 
 ## Binary search tree
 Implement data structure **"binary search tree"**. It should be done as a **stand-alone**, **clean**, **independent component**, which can be used wherever needed. B.S.T. should have the following methods (you can add your own methods, but the 7 listed below must be and named exactly as stated):
-* root     (**no param**)          returns root* of the tree; 
+* root     (**no param**)          returns root* of the tree;
 * insert   (**param:** key, value) stores specified value in tree using key; method should be chainable**;
 * delete   (**param:** key)        removes node from tree by provided key; method should be chainable**;
 * search   (**param:** key)        looking for stored data in tree using key;
