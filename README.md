@@ -18,10 +18,7 @@ module.exports = {
   student: 'STUDENT NAME'
 };
 ```
-
-5. npm run test
-6. enjoy
-
+After that run  ```npm run test``` and enjoy :smile:
 
 ## Binary search tree
 Implement data structure **"binary search tree"**. It should be done as a **stand-alone**, **clean**, **independent component**, which can be used wherever needed. B.S.T. should have the following methods (you can add your own methods, but the 7 listed below must be and named exactly as stated):
@@ -32,12 +29,3 @@ Implement data structure **"binary search tree"**. It should be done as a **stan
 * contains (**param:** value)      returns whether BST contains such value or not;
 * traverse (**param:** order)      retrieves ordered sequence of stored values in given oreder (order is boolean)   
 * verify   (**no param**)          verifies whether tree is well-formed binary search tree or not
-
-**chainable
-```javascript
-var bst = new BinarySearchTree();
-...
-bst.insert(key1, value1).insert(key2, value2).insert(key3, value3).delete(key2).search(key3);
-```
-##### DON'T USE ARRAYS OR OTHER DATA STRUCTURES FOR STORING ITEMS INSIDE BST!
-##### PAY SPECIAL ATTENTION TO CODE QUALITY
