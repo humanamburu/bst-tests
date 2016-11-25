@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "mocha -r ./test/setup-mocha.js"
+    "test": "mocha -r ./test/setup-mocha.js --colors"
   },
   "author": "",
   "license": "ISC",
