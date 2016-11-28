@@ -1,10 +1,9 @@
 #Tests for Binary Search Tree
 ####How to use?
 
-1. Clone this repo
-2. Install modules
-3. Paste BST code to index.js
-4. Export structure and BST class from index.js file
+1. ```git clone```
+2. ```npm i```
+3. Export structure and BST class from index.js file
 
 ```javascript
 module.exports = {
@@ -18,7 +17,7 @@ module.exports = {
   student: 'STUDENT NAME'
 };
 ```
-After that run  ```npm run test``` and enjoy :smile:
+After that run  ```npm run test``` and enjoy :simple_smile:
 
 ## Binary search tree
 Implement data structure **"binary search tree"**. It should be done as a **stand-alone**, **clean**, **independent component**, which can be used wherever needed. B.S.T. should have the following methods (you can add your own methods, but the 7 listed below must be and named exactly as stated):
