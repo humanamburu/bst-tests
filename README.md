@@ -17,7 +17,7 @@ module.exports = {
   student: 'STUDENT NAME'
 };
 ```
-After that run  ```npm run test``` and enjoy :simple_smile:
+After that run  ```npm run test``` and enjoy :white_check_mark:
 
 ## Binary search tree
 Implement data structure **"binary search tree"**. It should be done as a **stand-alone**, **clean**, **independent component**, which can be used wherever needed. B.S.T. should have the following methods (you can add your own methods, but the 7 listed below must be and named exactly as stated):
