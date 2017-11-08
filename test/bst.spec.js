@@ -26,8 +26,8 @@ describe(`Binary Search Tree. Student: ${student}`, () => {
         })
 
         it('inserts elements 2 -> 1 -> 3 by BST rules', () => {
-            //---1----
-            //2-----3-
+            //---2----
+            //1-----3-
             //--------
             elements = [2, 1, 3];
 
