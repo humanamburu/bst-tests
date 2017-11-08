@@ -3,7 +3,7 @@
 
 1. ```git clone```
 2. ```npm i```
-3. Export structure and BST class from index.js file
+3. Export a structure and a BST class from the `index.js` file
 
 ```javascript
 module.exports = {
