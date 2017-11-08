@@ -1,5 +1,5 @@
-#Tests for Binary Search Tree
-####How to use?
+# Tests for Binary Search Tree
+#### How to use?
 
 1. ```git clone```
 2. ```npm i```
